@@ -1,3 +1,4 @@
+![Image description](https://dl.dropbox.com/scl/fi/waj49bhwaswkuaxmacatd/screenshot_4x_postspark_2025-07-09_12-46-11.jpeg?rlkey=n1xvmf3ykjsa10qogivw3ledd&st=6elihg6z&dl=0)
 # ShortShare
 
 A real-time file, text, and code sharing app (like ShareIt/Xender, but web-based) built with React + Vite and Supabase.
