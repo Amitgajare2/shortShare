@@ -193,7 +193,7 @@ const UploadForm = ({ activeTab }) => {
             {textMode === 'code' && <span style={{ background: '#f3e8ff', color: '#7c3aed', borderRadius: 6, padding: '0.2rem 0.7rem', fontSize: '0.97rem' }}>{language}</span>}
           </div>
           <div style={{ color: '#888', fontSize: '0.9rem', marginBottom: '1rem' }}>Content will be available for 2 hours</div>
-          <button className="share-btn" type="submit" disabled={loading} style={{ width: '180px', float: 'right', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem', background: '#a78bfa', color: '#fff', fontWeight: 600, fontSize: '1.07rem' }}>{loading ? 'Sharing...' : (textMode === 'code' ? <>Share Code</> : <>Share Text</>)}</button>
+          <button className="share-btn" type="submit" disabled={loading} style={{ width: '180px', float: 'right', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem', background: '#7c3aed', color: '#fff', fontWeight: 600, fontSize: '1.07rem' }}>{loading ? 'Sharing...' : (textMode === 'code' ? <>Share Code</> : <>Share Text</>)}</button>
         </div>
       )}
       {error && <div className="error">{error}</div>}
