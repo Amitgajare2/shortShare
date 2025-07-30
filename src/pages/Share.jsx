@@ -129,7 +129,7 @@ const Share = () => {
   if (!share) return <div className="share-notfound">Share not found.</div>;
 
   return (
-    <div style={{ maxWidth: 700, margin: '2rem auto' }}>
+    <div style={{ maxWidth: 700, margin: '2rem auto', padding: '10px' }}>
       {/* Summary Card */}
       <div className="summary-card" style={{ background: '#fff', borderRadius: 12, boxShadow: '0 2px 12px rgba(124,58,237,0.07)', padding: '1.5rem 2rem', marginBottom: '1.5rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
@@ -190,7 +190,7 @@ const Share = () => {
         <div className="files-card" style={{ background: '#fff', borderRadius: 12, boxShadow: '0 2px 12px rgba(124,58,237,0.07)', padding: '1.2rem 1.5rem', marginBottom: '1.5rem' }}>
           <div style={{ fontWeight: 600, fontSize: '1.1rem', marginBottom: 12 }}>Text</div>
           <div className="share-text">
-            <pre>{share.content}</pre>
+            <pre className='text-box'>{share.content}</pre>
           </div>
         </div>
       )}
