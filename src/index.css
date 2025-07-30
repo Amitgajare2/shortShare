@@ -233,6 +233,9 @@ body {
   flex: 1;
   font-size: 0.8rem;
   color: #333;
+  white-space: nowrap;       /* Prevent text from wrapping */
+  overflow: hidden;          /* Hide overflow */
+  text-overflow: ellipsis;
 }
 .file-size {
   color: #888;
