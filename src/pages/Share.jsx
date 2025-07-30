@@ -198,7 +198,7 @@ const Share = () => {
         <div className="files-card" style={{ background: '#fff', borderRadius: 12, boxShadow: '0 2px 12px rgba(124,58,237,0.07)', padding: '1.2rem 1.5rem', marginBottom: '1.5rem' }}>
           <div style={{ fontWeight: 600, fontSize: '1.1rem', marginBottom: 12 }}>Code <span style={{ background: '#f3e8ff', color: '#7c3aed', borderRadius: 8, padding: '0.2rem 0.8rem', fontSize: '0.97rem', fontWeight: 500, marginLeft: 8 }}>{share.language}</span></div>
           <div className="share-code">
-            <pre>
+            <pre className='text-box'>
               <code
                 ref={codeRef}
                 className={`language-${share.language || 'plaintext'}`}
