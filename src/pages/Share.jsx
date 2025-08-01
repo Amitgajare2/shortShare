@@ -177,7 +177,7 @@ const Share = () => {
                   onClick={handleDownload}
                   style={{ background: '#7c3aed', color: '#fff', border: 'none', borderRadius: 8, padding: '0.7rem 1.5rem', fontWeight: 600, fontSize: '1rem', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem', marginLeft: 16 }}
                 >
-                  <span style={{ fontSize: '1.2em' }}><GrDownload></GrDownload></span> Download
+                  <span style={{ fontSize: '1.2em' }}><GrDownload></GrDownload></span>
                 </a>
               </div>
             ))}
